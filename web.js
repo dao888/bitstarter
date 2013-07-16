@@ -7,9 +7,7 @@ var app = express.createServer(express.logger());
 
 
 
-var buffer = fs.readFileSync('index.html', 'utf8');
-
-
+var tstbuffer = fs.readFileSync('index.html', 'utf8');
 
 
 
